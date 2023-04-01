@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Changes the background color of the website */
 body {
     background-color: #d9dcd6;
 }
 
+/* Changes the padding, font, and color of the header of the website */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,18 @@ header {
     color: #ffffff;
 }
 
+/* Controls the display property and font size for the company logo on the header of the website */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Controls the color of the "seo" in the "Horiseon" logo on the header of the website */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Controls spacing, positioning, and font options for the navigation bar in the header of the website */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,50 +37,58 @@ header nav {
     font-size: 20px;
 }
 
+/* Removes list bullet points from the navigation bar in the header of the website */
 header nav ul {
     list-style-type: none;
 }
 
+/* Controls the left margin and sets the display property for the navigation bar list items in the header of the website */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Controls the text color for the list item links in the navigation bar in the header of the website */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Controls the font size for all <p> elements across the website */
 p {
     font-size: 16px;
 }
 
+/* Size and display settings for the main background image of the website */
 .main-background-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    /* background-image: url("../images/digital-marketing-meeting.jpg"); */
     background-size: cover;
     background-position: center;
 }
 
+/* Used to position content images to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Used to position content images to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
+/* Stylizes the container for the main content of the website */
+.main-content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/* Stylizes the container for the benefits content of the website */
+.benefits-content {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,54 +99,64 @@ p {
     background-color: #2589bd;
 }
 
+/* Sets the text color and bottom margin spacing for the lead content within the benefits content container */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Sets the text color and bottom margin spacing for the brand content within the benefits content container */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Sets the text color and bottom margin spacing for the cost content within the benefits content container */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Centers the header text for the lead content and adjusts the header's bottom margin*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Centers the header text for the brand content and adjusts the header's bottom margin */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Centers the header text for the brand content and adjusts the header's bottom margin */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Changes display properties for the lead content image */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Changes display properties for the brand content image */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Changes display properties for the cost content image */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Controls container properties and font for search engine optimization content */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +166,7 @@ p {
     color: #ffffff;
 }
 
+/* Controls container properties and font for the online reputation management content */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +176,7 @@ p {
     color: #ffffff;
 }
 
+/* Controls container properties and font for the social media marketing content */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +186,7 @@ p {
     color: #ffffff;
 }
 
+/* Controls height to make the images fit within their containers */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +199,7 @@ p {
     max-height: 200px;
 }
 
+/* Controls header size and bottom margin size for the content */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +215,7 @@ p {
     font-size: 36px;
 }
 
+/* Controls footer text, padding, and centers footer text */
 footer {
     padding: 30px;
     clear: both;
